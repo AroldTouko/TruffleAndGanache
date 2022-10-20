@@ -1,5 +1,5 @@
-var Cotisation = artifacts.require("Cotisation");
+var ROSCA = artifacts.require("ROSCA");
 
 module.exports = function(deployer) {
-  deployer.deploy(Cotisation);
+  deployer.deploy(ROSCA);
 };
